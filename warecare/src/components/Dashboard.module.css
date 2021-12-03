@@ -1,0 +1,112 @@
+.base {
+    background-color: #fff;
+    border-radius: 6px;
+    box-shadow: 0 1.5px 10px -1px transparentize(#315BF1, 0.75), 0 6px 0 0 #4E5CD5;
+    display: flex;
+    align-items: stretch;
+    max-width: 100%;
+    position: relative;
+    
+  }
+  
+
+  
+  
+  .rightside {
+    display: flex;
+    flex-direction: row;
+    padding: 30px;
+    position: relative;
+    height: 500px;
+    width: 450px;
+    background-color: white;
+    border-radius: 25px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.5);
+    margin-bottom: 20px;
+    margin-left: 40px;
+    font-family: 'Montserrat', sans-serif;
+    
+   
+  }
+  
+  p.subtitle {
+    opacity: 0.6;
+    margin: 0;
+    margin-bottom: 1.25em;
+    font-weight: 400;
+    letter-spacing: 1px;
+    font-size: .8rem;
+  }
+  
+  .icon-line {
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+    margin: 0;
+    margin-top: .5em;
+  
+  
+  }
+  
+  
+  .cta {
+    margin: 0 auto;
+    border: 1px solid rgba(0, 0, 0, 0.45);
+    border-radius: 5px;
+    padding: 0.5em 1em;
+  
+    display: inline-flex;
+    align-items: center;
+    position: absolute;
+    top: 30px;
+    right: 30px;
+  
+   
+  }
+
+  .buttons button{
+      padding: 15px 30px;
+      border-radius: 30px;
+     
+      
+     
+      
+  }
+
+  .buttons button:hover {
+    background-color: #2EE59D;
+    box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+    color: #fff;
+    transform: translateY(-7px);
+  }
+
+  .morebutton{
+    color: #8CC5F9;
+    border: 1px solid rgb(140, 197, 249);
+    background-color: white;
+    transition: all 0.3s ease 0s;
+    
+   
+  
+  }
+  .reportbutton{
+    background-color: #E21313;
+    border: 1px solid rgba(0, 0, 0, 0.45);
+
+    color: white;
+    margin-left: 100px;
+  
+    transition: all 0.3s ease 0s;
+  }
+  
+  .buttons {
+    position: absolute;
+    bottom: 30px;
+    left: 30px;
+  
+    
+  }
+
+
+
+ 
